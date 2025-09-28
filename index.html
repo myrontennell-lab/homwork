@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A-Frame Primitives – Myron Tennell</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Box moved and recolored -->
+      <a-box
+        color="orange"
+        position="-3 2 -6"
+        rotation="0 30 0"
+        width="2"
+        height="2"
+        depth="2">
+      </a-box>
+
+      <!-- Sphere moved and recolored -->
+      <a-sphere
+        color="magenta"
+        position="2 3 -7"
+        radius="1.2">
+      </a-sphere>
+
+      <!-- Cylinder moved and recolored -->
+      <a-cylinder
+        color="teal"
+        position="5 1.5 -5"
+        rotation="0 0 0"
+        radius="0.8"
+        height="3">
+      </a-cylinder>
+
+      <!-- Cone moved and recolored -->
+      <a-cone
+        color="lime"
+        position="-6 2 -4"
+        rotation="0 0 0"
+        height="3"
+        radius-bottom="2">
+      </a-cone>
+
+      <!-- Plane enlarged as a ground -->
+      <a-plane
+        color="gray"
+        position="0 0 -6"
+        rotation="-90 0 0"
+        width="30"
+        height="30">
+      </a-plane>
+
+      <!-- Text updated -->
+      <a-text
+        value="Myron Tennell"
+        color="black"
+        position="0 4 -6"
+        width="10"
+        align="center">
+      </a-text>
+
+      <!-- Sky -->
+      <a-sky color="lightyellow"></a-sky>
+    </a-scene>
+  </body>
+</html>
